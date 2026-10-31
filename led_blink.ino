@@ -1,5 +1,7 @@
-void setup() { pinMode(13, OUTPUT); }
+const uint8_t LED_PIN = 13;
+
+void setup() { pinMode(LED_PIN, OUTPUT); }
 void loop() {
-  digitalWrite(13, HIGH); delay(1000);
-  digitalWrite(13, LOW);  delay(1000);
+  digitalWrite(LED_PIN, HIGH); delay(1000);
+  digitalWrite(LED_PIN, LOW);  delay(1000);
 }
